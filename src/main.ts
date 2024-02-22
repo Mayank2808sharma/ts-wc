@@ -1,4 +1,3 @@
-// main.ts
 import { CCWC } from "./ccwc";
 
 async function main(): Promise<void> {
