@@ -1,7 +1,7 @@
 # ts-wc
 `ts-wc` is a simple command-line utility written in TypeScript for counting bytes, lines, words, and characters in text files.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2y0_vXo7R7c" frameborder="0" allowfullscreen></iframe>
 ### Getting Started
 
 Follow the steps below to get started:
@@ -37,7 +37,7 @@ Flags:
   -m           Outputs the numbers of characters in the file
   -w           Outputs the numbers of words in the file
 ```
-By default, go-wc outputs the number of words, lines, bytes, and characters for the file.
+By default, ts-wc outputs the number of words, lines, bytes, and characters for the file.
 
 #### Example: Get the number of words of a file `test.txt`
 
