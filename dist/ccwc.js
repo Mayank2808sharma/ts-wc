@@ -60,12 +60,12 @@ class CCWC {
     }
     getWordCount(data) {
         return __awaiter(this, void 0, void 0, function* () {
-            return data.split(/\s+/).length;
+            return data.trim().split(/\s+/).length;
         });
     }
     getCharacterCount(data) {
         return __awaiter(this, void 0, void 0, function* () {
-            return data.length;
+            return data.length - 1;
         });
     }
     getFileSize() {

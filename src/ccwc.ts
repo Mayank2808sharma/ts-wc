@@ -25,11 +25,11 @@ export class CCWC {
   }
 
   async getWordCount(data: string): Promise<number> {
-    return data.split(/\s+/).length;
+    return data.trim().split(/\s+/).length;
   }
 
   async getCharacterCount(data: string): Promise<number> {
-    return data.length;
+    return data.length-1;
   }
 
   async getFileSize(): Promise<number> {
@@ -80,7 +80,7 @@ export class CCWC {
 
       await this.printResult(option, result);
     } catch (err) {
-      console.error("Error processing file:", err);
+      console.error("Error processing file:",err);
     }
   }
 }
